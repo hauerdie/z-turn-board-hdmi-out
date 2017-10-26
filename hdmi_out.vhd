@@ -60,17 +60,19 @@ begin
 colour_proc: process(hcounter,vcounter)
      begin
         if vcounter < 600 then
-            if hcounter < 182 then
+            if hcounter < 160 then
                 color <= WHITE;
-             elsif hcounter < 364 then
+             elsif hcounter < 320 then
                 color <= YELLOW;
-             elsif hcounter < 546 then
+             elsif hcounter < 480 then
                 color <= CYAN;
-            elsif hcounter < 728 then
+            elsif hcounter < 640 then
                 color <= GREEN;
-            elsif hcounter < 910 then
+            elsif hcounter < 800 then
                 color <= MAGENTA;
-            elsif hcounter < 1092 then
+            elsif hcounter < 960 then
+                color <= RED;
+            elsif hcounter < 1120 then
                 color <= BLUE;
             else
                 color <= BLACK; 
