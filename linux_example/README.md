@@ -1,4 +1,4 @@
-##### Example on how to get Video out on the z-Turn Board in Linux with Xilinx IP using the simple framebuffer driver.
+##### Example on how to get video out (1080p60) on the z-Turn Board in Linux with Xilinx IP using the simple framebuffer driver.
 
 The new reference display driver from MIYR uses just Xilinx IP. Via Video Timing Controller, Video DMA and AXI4-Stream to Video Out display data is streamed to HDMI.
 
