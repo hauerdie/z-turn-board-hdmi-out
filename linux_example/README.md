@@ -68,6 +68,6 @@ Change the reg in memory to 0x3F000000
         };
 ```
 
-You can find my kernel (4.14.0-xilinx) in the boot.bin folder (boot.bin, uImage and devicetree.dtb).
+You can find my kernel (4.14.0-xilinx) in the boot folder (boot.bin, uImage and devicetree.dtb).
 It should work with xillinux-2 but I use it with the latest Raspbean Stretch (Lite and Desktop).
   
