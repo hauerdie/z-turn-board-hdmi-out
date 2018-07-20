@@ -1,6 +1,4 @@
-# z-turn-board-hdmi-out
-
-VHDL example on generating a HDMI test pattern
+VHDL example on generating a HDMI test pattern on the FPGA
 
 There is no oscillator for the PL part of the Zynq 7000 on the board. The processing_system7_0 IP can be used to generate a 74.25Mhz clock which can drive the in_clk.
 
