@@ -4,7 +4,7 @@ The new reference display driver from MIYR uses just Xilinx IP. Via Video Timing
 
 To get this going, we just need to start the Video Timing Controler and Video DMA. This can be done in the FSBL, after the bitstream is loaded into the FPGA (it only works if we laod the bitstream from the FSBL and not from u-Boot).
 
-We need to change the Design, because of an error, change the FSBL to get VTC and VDMA going and create a new BOOT.bin. Unfortunate we also need to compile a new u-boot and new kernel. (I was not able to get this going with the u-boot from the DVD and I was also not able to get the simple framebuffer going in Linux 3.15)
+We need to change the Design, because of an error, then change the FSBL to get VTC and VDMA going and create a new BOOT.bin. Unfortunate we also need to compile a new u-boot and new kernel. (I was not able to get this going with the u-boot from the MIYR DVD and I was also not able to get the simple framebuffer going in Linux 3.15)
 
 ##### Download the Xilinx Display Release Project from MYIR.
 
