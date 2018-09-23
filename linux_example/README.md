@@ -15,6 +15,8 @@ There is an error in the desing. a8b8g8r8 from the framebuffer needs to be conve
 
 In Block Design, open the axis_subset_converter_0 and change 'TDATA Remap String' to tdata[23:16],tdata[15:8],tdata[7:0]
 
+Check the default constatns in the v_tc_0 oject if it is set to 1080p and change if not.
+
 Generate Bitstream and export to SDK (don't forget to include bitstream).
 
 ##### Create a new FSBL Project in the SDK.
